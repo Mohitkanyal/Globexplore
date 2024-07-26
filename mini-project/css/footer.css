@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+
+:root {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+
+/* CSS Variables */
+  /* Fonts */
+  --ff-parisienne: "Parisienne", cursive;
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-lora: "Lora", serif;
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-rubik-dirt: "Rubik Dirt", cursive;
+  --fs-paragraphs: calc(0.8rem + 0.35vw);
+  --fs-links-btns: calc(0.65rem + 0.5vw);
+}
+
+
+/* Global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+
+  span {
+    color: #7c7c7c;
+    padding: 0px 40px;
+  }
+
+
+body{
+    background-color: black;
+}
+body,
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #484646;
+    border-radius: 10px;
+  }
+
+
+
+
+/* footer */
+body{
+    /* background-color: #161616; */
+}
+
+.box1{
+    width: 100vw;
+    /* height: 50vh; */
+   background-color: black;
+    margin-top: 10px;
+    
+    /* margin: 130px auto; */
+  }
+  .box1 .email{
+    background-color: white;
+    width:30vw;
+    height: 10vh;
+    padding: 30px 10px 10px 50px;
+    border-radius: 50px;
+    margin: 13px 10px 10px 91px;
+    /* border: yellow solid 50px; */
+  }
+  .box1 .email p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .email:hover{
+    /* transform: scale(1.05);
+    transition: ease-in-out(0.5s); */
+    background-color: #fc036b;
+    border: white solid 2px;
+  }
+  .box1 .phone{
+    background-color: white;
+    width:30vw;
+    height: 10vh;
+    padding: 30px 10px 10px 50px;
+    border-radius: 50px;
+    
+    margin: 13px 10px 10px 91px;
+    /* border: yellow solid 50px; */
+  }
+  .box1 .phone p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .phone:hover{
+    background-color: #fc036b;
+    border: white solid 2px;
+  }
+  
+  .box1 .social{
+   
+    margin: 14px 127px 0px 134px
+  }
+  
+  
+  .box1 h1{
+    
+    font-family: var(--ff-rubik-dirt);
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.4rem;
+      padding: 17px 1.9rem;
+      font-weight: 300;
+      color: rgb(254, 252, 252); 
+      text-decoration: none;
+      font-stretch: 20px;
+      margin-top: 20px;
+      margin-left: 91px;
+  
+  }
+  .box1 h4{
+    color: white;
+    font-size: 1.2rem;
+    width: 45%;
+    line-height: 45px;
+    margin-left: 115px;
+  }
+  .box1 h2{
+    font-family: var(--ff-montserrat);
+    color: white;
+      font-size: 2.2rem;
+      margin-top: 40px;
+      margin-left: 120px;
+  }
+  .social img{
+    width: 4vw;
+    height: 8vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .social img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out(0.5s);
+  }
+  
+  
+  
+  .footer-bottom { padding-block: 20px; }
+  
+  .footer-bottom a { color: white; }
+  
+  .copyright {
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  .copyright a {
+    display: inline-block;
+    color: white;
+    font-weight: var(--fw-600);
+  }
+  
+  .footer-bottom-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 15px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-bottom-link:is(:hover, :focus) { color: grey; }
+  
+  .payment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  

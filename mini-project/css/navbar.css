@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+
+:root {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+
+/* CSS Variables */
+  /* Fonts */
+  --ff-parisienne: "Parisienne", cursive;
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-lora: "Lora", serif;
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-rubik-dirt: "Rubik Dirt", cursive;
+  --fs-paragraphs: calc(0.8rem + 0.35vw);
+  --fs-links-btns: calc(0.65rem + 0.5vw);
+}
+
+
+/* Global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+
+  span {
+    color: #7c7c7c;
+    padding: 0px 40px;
+  }
+
+
+body{
+    background-color: black;
+}
+body,
+html {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/*scrollbar*/
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #484646;
+    border-radius: 10px;
+  }
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.2); */
+    backdrop-filter:  blur(100px);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5px;
+    /* z-index: 10; */
+    color: whitesmoke;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    /* word-spacing: 55px; */
+  }
+  
+ 
+  .nav-links li {
+    font-family: var(--ff-montserrat);
+    margin: 0px 15px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    /* font-size: 25px; */
+    padding: 6px 20px;
+    font-weight: bold;
+    margin: 0px -10px;
+    letter-spacing: 2px;
+    
+  }
+  
+  .user{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 20px;
+    font-weight: bold;
+    margin: 0px -10px;
+    letter-spacing: 2px;
+    font-family: var(--ff-montserrat);
+    margin: 0px 15px;
+  }
+
+  .user:hover{
+    color: #fc036b ;
+    /* border-radius: 50%; */
+  }
+
+/* .user:hover::before::content{
+  color: #fc036b;
+  margin-left: 50px;
+} */
+  /* .login{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px 20px;
+    font-weight: bold;
+    margin: 0px -10px;
+    letter-spacing: 2px;
+    font-family: var(--ff-montserrat);
+    margin: 0px 15px;
+  } */
+
+  
+
+  .nav-links li a:hover{
+    /* color: #484646 */
+    color: #fc036b;
+    border-radius: 50px;
+  }
+  .navbar .logo1{
+    /* margin-top: -25px; */
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 90px;
+    display: flex;
+    margin-top: 3px;
+  }
+
+  .logo {
+    font-family: var(--ff-rubik-dirt);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    padding: 0 1.9rem;
+    font-weight: 300;
+    color: rgb(254, 252, 252); 
+    text-decoration: none;
+    font-stretch: 20px;
+    margin-top: 20px;
+    
+    
+  }
+  .menu-btn {
+    position: absolute;
+    top: 30px;
+    right: -300px;
+    width: 40px;
+    cursor: pointer;
+  }
