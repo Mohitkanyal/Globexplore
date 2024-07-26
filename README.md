@@ -1,7 +1,7 @@
 # Globexplore
 Welcome to the Globexplore repository! This project is a travel website that offers information on various travel packages and events. Follow the instructions below to set up the project on your local machine using XAMPP and phpMyAdmin.
 
-Prerequisites
+#Prerequisites
 XAMPP installed on your machine.
 A web browser to access phpMyAdmin and view the website.
 Installation
@@ -28,7 +28,7 @@ Ensure your database connection settings in the PHP files are correct. Typically
 6. Access the Website
 Open your web browser and navigate to:
 http://localhost/index.php
-Usage
+#Usage
 Once you have the website set up and running, you can explore various features:
 
 Homepage
