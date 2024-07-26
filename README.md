@@ -28,6 +28,8 @@ Ensure your database connection settings in the PHP files are correct. Typically
 6. Access the Website
 Open your web browser and navigate to:
 http://localhost/index.php
+
+
 #Usage
 Once you have the website set up and running, you can explore various features:
 
