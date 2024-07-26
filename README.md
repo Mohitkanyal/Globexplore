@@ -47,5 +47,6 @@ The About Us section provides information about Globexplore and its mission to c
 
 Contact Us
 At the bottom of the page, you'll find the Contact Us section where users can find ways to get in touch with Globexplore for more information or support.
+
 License
 This project is open-source and available under the MIT License.
