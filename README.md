@@ -31,6 +31,7 @@ http://localhost/index.php
 
 
 Usage
+
 Once you have the website set up and running, you can explore various features:
 
 Homepage
