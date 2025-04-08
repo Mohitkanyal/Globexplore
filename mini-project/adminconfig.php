@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','admin');
+$DB_HOST = getenv("AD_SERVER");
+$DB_USER = getenv("AD_USER");
+$DB_PASS = getenv("AD_PASS");
+$DB_NAME = getenv("AD_NAME");
 // Establish database connection.
 try
 {
