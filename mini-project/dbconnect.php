@@ -1,8 +1,8 @@
 <?php
-  $server="localhost";
-  $userid="root";
-  $pwd="";
-  $dbname="signin";
+  $server=getenv("DB_SERVER");
+  $userid=getenv("DB_USER");
+  $pwd=getenv("DB_PASS");
+  $dbname=getenv("DB_NAME");
   $conn = mysqli_connect($server, $userid, $pwd, $dbname);
 //Check connection
 if (!$conn) 
